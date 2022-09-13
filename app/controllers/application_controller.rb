@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
     def hello
-        render html: "¡hola, mundo!"
+        render html: "Hello World"
     end
     
     def goodbye
